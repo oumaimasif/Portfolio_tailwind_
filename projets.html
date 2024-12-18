@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body class=" box-border w-8/12 h-screen m-auto p-0 bg-gray-100">
+    <div class=" bg-white mx-auto">
+<!-- barre de menu -->
+ <header class="flex justify-between m-auto w-full text-sm items-center  px-3 py-4">
+    <!-- titre de la page -->
+    <div class="font-sans">
+         <a herf="index.html" class="font-sans cursor-pointer italic text-lg text-zinc-700 ">sifoumaima.com</a>
+    </div>
+    <nav class=" text-sm drop-shadow-lg mr-24  bg-white rounded-full ">
+      <div class="mx-3 flex justify-around items-center gap-6 text-zinc-600">
+        <a  class="p-2 font-semibold hover:text-teal-600 " href="about.html">A propos</a>
+        <a class="p-2 font-semibold hover:text-teal-600 " href="projets.html">Projets</a>
+        <a class="p-2  font-semibold hover:text-teal-600 " href="formation.html">Formations</a>
+        <a class="p-2  font-semibold hover:text-teal-600 " href="plus.html">Plus</a>
+      </div>
+    </nav>
+    <!-- sombre et langue -->
+    <div>
+        <button class="drop-shadow-lg w-12 h-9 bg-white rounded-full mx-1 text-xl">&#9788;<!--&#x263D;--></button>
+       <button class="text-s drop-shadow-lg w-12 h-9 text-xl bg-white rounded-full mx-1">&#9872;</button> 
+    </div>
+ </header>
+    <!-- Presantations des Projets  -->
+    <main class=" mx-3 w-full h-full ">
+      <div class="w-2/3">
+        <h1 class="text-4xl leading-loose tracking-[0.4px] font-bold  text-zinc-700  ">Mes Projets : De la Passion à la Réalité</h1>
+        <p class=" text-lg py-5  text-zinc-700 ">Voici quelques exemples de projets que j'ai réalisés avec HTML, CSS et Tailwind CSS. 
+         Même si je suis encore au début de mon parcours, j'aime créer des sites web qui sont à la fois simples et modernes. 
+         Chaque projet est une occasion d'apprendre et d'améliorer mes compétences.Si tu as un projet en tête ou des idées à partager, je serai ravi de t'aider à les concrétiser. 
+        N'hésite pas à me contacter pour discuter !</p>
+      </div>
+
+
+      <!-- les carte des progets -->
+      <div class="flex m-0 py-4 gap-3 flex-wrap box-border  ">
+        <!-- projet 1 -->
+         <div class=" p-4 border rounded-lg w-[320px] h-[250] ">
+            <span class="text-base font-bold">01</span>
+            <h2 class="text-xl font-bold">Agence de voyage</h2>
+            <p class="text-base">Un site vitrine intuitif et informatif pour les voyageurs en quête d'aventures.</p>
+            <a href="#modal1" class="no-underline text-base text-teal-500 cursor-pointer">Découvrez le projet <span class="text-teal-500 ml-1">&#10132;</span> </a>
+
+        <!-- modale 01 -->
+         <!-- hidde -->
+         <div id="modal1" class=" modal visited:hidden opacity-0 absolute top-0 right-0 left-0 bottom-0 
+         flex items-center justify-center bg-slate-700/50 transition-all ">
+            <!-- content -->
+             <div class="modal-cantent border relative w-1/3/3 h-2/3 bg-white rounded-xl py-3 px-4">
+                 <h1 class="text-xl text-center text-zinc-600 p-4 text- font-bold ">Agence de voyage</h1>
+              <!-- video -->
+               <video muted autoplay loop class="shadow-2xl h-3/4 m-auto">
+                <source src="imges/agence.mp4" type="video/mp4">
+               </video>
+                 <a href="#" class=" absolute top-2 text-gray-600 rotate-90 text-4xl rounded-full z-10 no-underline right-5">&#10005;</a>
+                <!-- <div id="btn_prt" class=" absolute left-auto right-auto  "> -->
+                  <div id="btn_prt" class="  flex justify-center items-center mt-2">
+                    <a href="https://oumaimasif.github.io/agence_voyage/" target="_blank" class="bg-green-300  text-center rounded-3xl p-2 w-24 font-medium text-zinc-700 inline-block mr-4 hover:bg-transparent
+                 hover:border-green-300 hover:text-emerald-800 hover:border">Live</a>
+                 <a href="https://github.com/oumaimasif/agence_voyage" target="_blank" class=" bg-green-300 text-center rounded-3xl p-2 w-24 font-medium text-zinc-700 inline-block mr-4 hover:bg-transparent
+                  hover:border-green-300 hover:text-emerald-800 hover:border">GithuB</a>
+
+                </div> <!--btn live / github-->
+                 
+             </div><!--fin content -->
+         </div> <!--fin modale1-->
+        </div>
+        <!--fin prt1-->
+      
+        <!-- projet 02 -->
+        <div class="  p-4 border rounded-lg w-[320px] h-[250]  ">
+            <span class="text-base font-bold">02</span>
+            <h2 class="text-xl font-bold">Restaurant</h2>
+            <p class="text-base">Une plateforme élégante et accueillante pour mettre en valeur les menus et services.</p>
+            <a href="#modal2" class="no-underline text-base text-teal-500 cursor-pointer">Découvrez le projet <span class="text-teal-500 ml-1">&#10132;</span> </a>
+                    
+            <!-- modale2 -->
+         <div id="modal2" class=" modal visited:hidden opacity-0 absolute top-0 right-0 left-0 bottom-0 
+         flex items-center justify-center bg-slate-700/50 transition-all ">
+            <!-- content -->
+             <div class="modal-cantent border relative w-1/3/3 h-2/3 bg-white rounded-xl py-3 px-4">
+                 <h1 class="text-xl text-center text-zinc-600 p-4 text- font-bold ">Agence de voyage</h1>
+              <!-- video -->
+               <!-- <video muted autoplay loop class="shadow-2xl h-3/4 m-auto">
+                <source src="imges/agence.mp4" type="video/mp4">
+               </video> -->
+                 <img src="imges/resto.png" class=" shadow-2xl h-3/4 m-auto"> 
+                 <a href="#" class=" absolute top-2 text-gray-600 rotate-90 text-4xl rounded-full z-10 no-underline right-5">&#10005;</a>
+                 <div id="btn_prt" class="  flex justify-center items-center  ">
+                  <a href="https://oumaimasif.github.io/restaurant/" target="_blank" class="bg-green-300  text-center rounded-3xl p-2 w-24 font-medium text-zinc-700 inline-block mr-4 hover:bg-transparent
+                 hover:border-green-300 hover:text-emerald-800 hover:border">Live</a>
+                 <a href="https://github.com/oumaimasif/restaurant.git" target="_blank" class=" bg-green-300 text-center rounded-3xl p-2 w-24 font-medium text-zinc-700 inline-block mr-4 hover:bg-transparent
+                  hover:border-green-300 hover:text-emerald-800 hover:border">GithuB</a>
+
+                </div> <!--btn live / github-->
+                 
+             </div><!--fin content -->
+         </div> <!--fin modale2-->
+
+         </div>
+         <!--fin prt2-->
+
+        <!-- projet 03 -->
+        <div class="  p-4 border rounded-lg w-[320px] h-[250]  ">
+            <span class="text-base font-bold">03</span>
+            <h2 class="text-xl font-bold">E-commerce Store</h2>
+            <p class="text-base">Une boutique en ligne moderne et facile à naviguer.</p>
+            <a href="#modal3" class="no-underline text-base text-teal-500 cursor-pointer">Découvrez le projet <span class="text-teal-500 ml-1">&#10132;</span> </a>
+                    
+            <!-- modale3 -->
+         <div id="modal3" class=" modal visited:hidden opacity-0 absolute top-0 right-0 left-0 bottom-0 
+         flex items-center justify-center bg-slate-700/50 transition-all ">
+            <!-- content -->
+             <div class="modal-cantent border relative w-1/3/3 h-2/3 bg-white rounded-xl py-3 px-4">
+                 <h1 class="text-xl text-center text-zinc-600 p-4 text- font-bold ">Store</h1>
+              <!-- video -->
+                <video muted autoplay loop class="shadow-2xl h-3/4 m-auto">
+                <source src="imges/store.mp4" type="video/mp4">
+               </video>
+                 <!-- <img src="imges/resto.png" class=" shadow-2xl h-3/4 m-auto">  -->
+                 <a href="#" class=" absolute top-2 text-gray-600 rotate-90 text-4xl rounded-full z-10 no-underline right-5">&#10005;</a>
+                 <div id="btn_prt" class="  flex justify-center items-center mt-2  ">
+                  <a href="https://oumaimasif.github.io/restaurant/" target="_blank" class="bg-green-300  text-center rounded-3xl p-2 w-24 font-medium text-zinc-700 inline-block mr-4 hover:bg-transparent
+                 hover:border-green-300 hover:text-emerald-800 hover:border">Live</a>
+                 <a href="https://github.com/oumaimasif/store.git" target="_blank" class=" bg-green-300 text-center rounded-3xl p-2 w-24 font-medium text-zinc-700 inline-block mr-4 hover:bg-transparent
+                  hover:border-green-300 hover:text-emerald-800 hover:border">GithuB</a>
+
+                </div> <!--btn live / github-->
+                 
+             </div><!--fin content -->
+         </div> <!--fin modale3-->
+         </div> 
+        <!--fin prt3-->
+
+        <!-- projet 04 -->
+        <div class="  p-4 border rounded-lg w-[320px] h-[250]  ">
+            <span class="text-base font-bold">04</span>
+            <h2 class="text-xl font-bold">Junior Burger King</h2>
+            <p class="text-base">Une maquette visuellement appétissante conçue avec Photoshop, idéale pour un fast-food.</p>
+            <a href="#modal4" class="no-underline text-base text-teal-500 cursor-pointer">Découvrez le projet <span class="text-teal-500 ml-1">&#10132;</span> </a>
+                    
+            <!-- modale4 -->
+         <div id="modal4" class=" modal visited:hidden opacity-0 absolute top-0 right-0 left-0 bottom-0 
+         flex items-center justify-center bg-slate-700/50 transition-all ">
+            <!-- content -->
+             <div class="modal-cantent border relative w-2/3 h-2/3 bg-white rounded-xl py-3 px-4">
+                 <h1 class="text-xl text-center text-zinc-600 p-4 font-bold ">Junior Burger King</h1>
+               <div class=" flex flex-wrap  justify-between items-center box-border   ">
+               <img src="imges/pjtt1.png" class=" w-[220px] h-72">
+               <img src="imges/pjt2.png" class=" w-[220px] h-72"> 
+               <img src="imges/pjt3.png" class=" w-[220px] h-72"> 
+               <img src="imges/pjt4.png" class="w-[220px] h-72"> 
+               </div>
+                 <a href="#" class=" absolute top-2 text-gray-600 rotate-90 text-4xl rounded-full z-10 no-underline right-5">&#10005;</a>
+                 <div id="btn_prt" class="  flex justify-center items-center mt-2 ">
+                  <a href="https://oumaimasif.github.io/restaurant/" target="_blank" class="bg-green-300  text-center rounded-3xl p-2 w-24 font-medium text-zinc-700 inline-block mr-4 hover:bg-transparent
+                 hover:border-green-300 hover:text-emerald-800 hover:border">Live</a>
+                 <a href="https://github.com/oumaimasif/store.git" target="_blank" class=" bg-green-300 text-center rounded-3xl p-2 w-24 font-medium text-zinc-700 inline-block mr-4 hover:bg-transparent
+                  hover:border-green-300 hover:text-emerald-800 hover:border">GithuB</a>
+
+                </div> <!--btn live / github-->
+                 
+             </div><!--fin content -->
+         </div> <!--fin modale3-->            
+         </div> 
+         <!--fin prt4-->
+
+        <!-- projet 05 -->
+        <div class=" p-4 border rounded-lg w-80 h-[250]  ">
+            <span class="text-base font-bold">05</span>
+            <h2 class="text-xl font-bold">Docplanner</h2>
+            <p class="text-base">Une reproduction fidèle et moderne du célèbre site Docplanner, avec un design professionnel et ergonomique.
+            </p>
+            <a href="#modal5" class="no-underline text-base text-teal-500 cursor-pointer">Découvrez le projet <span class="text-teal-500 ml-1">&#10132;</span> </a>
+                    
+            <!-- modale3 -->
+         <div id="modal5" class=" modal visited:hidden opacity-0 absolute top-0 right-0 left-0 bottom-0 
+         flex items-center justify-center bg-slate-700/50 transition-all ">
+            <!-- content -->
+             <div class="modal-cantent border relative w-1/3/3 h-2/3 bg-white rounded-xl py-3 px-4">
+                 <h1 class="text-xl text-center text-zinc-600 p-4 text- font-bold ">Store</h1>
+              <!-- video -->
+                <video muted autoplay loop class="shadow-2xl h-3/4 m-auto">
+                <source src="imges/docplanner.mp4" type="video/mp4">
+               </video>
+
+               <a href="#" class=" absolute top-2 text-gray-600 rotate-90 text-4xl rounded-full z-10 no-underline right-5">&#10005;</a>
+               <div id="btn_prt" class="  flex justify-center items-center mt-2 ">
+                 <a href="https://oumaimasif.github.io/restaurant/" target="_blank" class="bg-green-300  text-center rounded-3xl p-2 w-24 font-medium text-zinc-700 inline-block mr-4 hover:bg-transparent
+                 hover:border-green-300 hover:text-emerald-800 hover:border">Live</a>
+                 <a href="https://github.com/oumaimasif/store.git" target="_blank" class=" bg-green-300 text-center rounded-3xl p-2 w-24 font-medium text-zinc-700 inline-block mr-4 hover:bg-transparent
+                  hover:border-green-300 hover:text-emerald-800 hover:border">GithuB</a>
+
+                </div> <!--btn live / github-->
+                 
+             </div><!--fin content -->
+         </div> <!--fin modale3-->       
+       </div>
+        <!--fin prt5-->
+
+      </div>
+      <!-- fin des projet-->
+    </main>
+
+ <!-- footer -->
+ <footer class="mx-auto mt-12 py-5 border-t-2 flex justify-evenly items-center">
+  <div class=" flex justify-around gap-4 text-zinc-700">
+    <a  class="text-sm font-medium hover:text-teal-600 " href="about.html">A propos</a>
+    <a class=" text-sm font-medium hover:text-teal-600 " href="projets.html">Projets</a>
+    <a class=" text-sm font-medium hover:text-teal-600 " href="formation.html">Formations</a>
+    <a class=" text-sm font-medium hover:text-teal-600 " href="#">Plus</a>
+    </div>
+  <p class="text-zinc-600">&copy;2024 Oumaima Sif. Tous droits réservés.</p>
+ </footer>
+</div>
+</body>
+</html>
