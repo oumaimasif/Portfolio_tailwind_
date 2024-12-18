@@ -1,23 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* <div class="flex flex-col md:flex-row items-center justify-between bg-gray-100 p-8">
-  <!-- Texte -->
-  <div class="md:w-1/2 text-center md:text-left">
-    <h1 class="text-3xl font-bold text-gray-800">À propos de moi</h1>
-    <p class="mt-4 text-gray-600">
-      Je suis Oumaima, une développeuse passionnée par le web et le design.
-    </p>
-  </div>
-  
-  <!-- Photo -->
-  <div class="mt-6 md:mt-0 md:w-1/2 flex justify-center">
-    <div class="rounded-full overflow-hidden w-48 h-48">
-      <img src="imges/espane.jpg" alt="Oumaima Sif" class="w-full h-full object-cover">
-    </div>
-  </div>
-</div>
- */
+
 
  .modal:target{
   visibility: visible;
